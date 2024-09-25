@@ -33,8 +33,16 @@
 ### Após essa implementação responda:
 
 - Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+<b>- Como o atributo massa é privado ele não consegue fazer a alteração. É necessario utilizar o Metodo "setmassa" para atribuir o valor "2" ao atributo massa.</b>
+
 - Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+<b>- Agora o atributo massa é publico e pode ser alterado sem a utilização do metodo "setmassa". Por questões de segurança não se deve deixar um atributo publico.</b>
+  
 - Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+<b>- Agora não o metodo "setVolume" não é mais visivel dentro do objeto. O metodo deve ser publico para permitir a sua alteração. </b>
 
 
 <b>Colocar essa informação no Readme do Git ou Em comentários de código na classe main </b>
